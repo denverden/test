@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <div class="gradient"></div>
+    <div class="control">
+      <div class="control__buttons">
+        <div class="button button--refresh"></div>
+        <div class="button button--quote"></div>
+        <div class="button button--lang button--first">En</div>
+        <div class="button button--lang button--last">Ru</div>
+      </div>
+      <div class="control__search">
+        <div class="search">
+          <input class="search__input" type="search" name="search-city" placeholder="Search city">
+          <input type="submit" class="search__btn-search" value="Search">
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main__top">
+        <div class="weather">
+          <div class="weather__icon"></div>
+          <div class="weather__temp"></div>
+          <div class="weather__desc"></div>
+        </div>
+      </div>
+      <div class="date-time">
+        <div class="date-time__date"></div>
+        <code class="date-time__time"></code>
+      </div>
+      <div class="greeting">
+        <span class="greeting__text"></span>
+        <input class="greeting__name">
+      </div>
+      <div class="focus">
+        <div class="focus__question"></div>
+        <input class="focus__text">
+      </div>
+      <figure class="quote">
+        <blockquote></blockquote>
+        <figcaption></figcaption>
+      </figure>
+    </div>
+    <div class="errors"></div>
+  </div>
+</body>
+</html>
